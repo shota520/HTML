@@ -1,0 +1,428 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+
+header{
+  height: 70px;
+  width: 100%;
+  background-color: #ec715f;
+}
+
+.top{
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.fa-bars{
+  display: none;
+}
+
+header img{
+  float: left;
+  height: 70px;
+}
+
+.nav-list{
+  float: right;
+
+
+  margin: 0 30px;
+}
+
+.nav-list a{
+  line-height: 70px;
+  color: #fafafa;
+  font-size: 16px;
+}
+
+#main-visual{
+  background-image: url(img/mv.png);
+  height: 650px;
+  width: 100%;
+  background-size: cover;
+}
+
+.main-container h1{
+  text-align: center;
+  padding: 200px 0 10px 0;
+  font-size: 64px;
+  color: #fafafa;
+}
+
+.main-container p{
+  text-align: center;
+  font-size: 20px;
+  color: #fafafa;
+}
+
+.sub-visual{
+  padding: 90px 0;
+  width: 100%;
+}
+
+.gray{
+  background-color: #eceff1;
+}
+
+#second-container{
+  width: 920px;
+  margin: 0 auto;
+
+}
+
+.theme{
+  font-size: 32px;
+  color: #000000;
+  text-align: center;
+  margin: 0 0 8px 0;
+}
+
+.theme::after{
+  content: "";
+  display: block;
+  height: 3px;
+  width: 70px;
+  background-color: #ec715f;
+  margin: 8px auto 0 auto;
+}
+
+.sub-text{
+  text-align: center;
+  padding:30px 0;
+  font-size: 16px;
+  color: #000000;
+}
+
+
+
+.imgs{
+    width: 300px;
+    height: 250px;
+    float: left;
+    background-size: cover;
+    background-position: center;
+}
+
+.img1{
+  background-image: url(img/sketch.jpg);
+  margin: 0 0 10px 0;
+}
+
+.img2{
+  background-image: url(img/websuku.png);
+  margin: 0 10px 10px 10px;
+}
+
+.img3{
+  background-image: url(img/write.jpg);
+  margin: 0 0 10px 0;
+}
+
+.img4{
+  background-image: url(img/webcamp.png);
+}
+
+.img5{
+  background-image: url(img/talk.jpg);
+  margin: 0 10px 0 10px;
+}
+
+.img6{
+  background-image: url(img/webcamp-mother.png);
+}
+
+#third-container{
+  width: 980px;
+  margin: 0 auto;
+}
+
+.feature h3{
+  font-size: 20px;
+  color: #000000;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.fas{
+  font-size: 60px;
+  margin: 0 126.25px;
+}
+
+.feature{
+  width: 320px;
+  height: auto;
+  float:left;
+}
+
+.feature:nth-child(2){
+  margin: 0 10px;
+}
+
+.feature-text{
+  text-align: left;
+  font-size: 16px;
+  color: #000000;
+}
+
+#fourth-container{
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.profile{
+  float: left;
+  width: 50%;
+  display: inline-block;
+}
+
+.profile h3{
+  display: inline-block;
+  font-size: 20px;
+  margin-bottom: 5px;
+
+}
+
+.profile p{
+font-size: 16px;
+  color: #000000;
+}
+
+.profile-text{
+  margin-bottom: 20px;
+}
+
+.prof{
+  background-image: url(img/my-icon.jpg);
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+}
+
+
+#fifth-container{
+  width: 800px;
+  margin: 0 auto;
+}
+
+.contact-1{
+  float: left;
+  width: 50%;
+  padding: 0 0 0 90px;
+  display: inline-block;
+}
+
+.contact-2{
+  float: left;
+  width: 50%;
+  padding: 0 0 0 50px;
+}
+
+.fab{
+  font-size: 50px;
+}
+
+.contact-theme{
+  font-size: 20px;
+  margin: 0 0 5px 0;
+}
+
+.tel{
+  margin-top: 20px;
+}
+
+.contact-num{
+  color: #000000;
+  text-decoration: underline;
+
+}
+
+.fa-twitter{
+  margin: 0 20px;
+}
+
+footer{
+  height: 60px;
+  background-color: #ec715f;
+}
+
+footer p{
+  line-height: 60px;
+  text-align: center;
+  font-size: 16px;
+  color: #fafafa;
+}
+
+
+@media screen and (max-width:767px) {
+
+  .top{
+    width: 90%;
+    height: 50px;
+
+  }
+
+  nav{
+    display: none;
+  }
+
+  .fa-bars{
+    display: inline-block;
+    float: right;
+    margin: 5px 0;
+    color: #ffffff;
+  }
+
+
+#main-visual{
+  height: 650px;
+  background-image: url(img/code.png);
+  background-size: cover;
+
+}
+
+.main-container h1{
+  padding:200px auto 10px auto;
+  font-size: 40px;
+  color: #fafafa;
+}
+
+.main-container p{
+  font-size: 18px;
+  color: #fafafa;
+}
+
+.sub-visual{
+  padding: 0;
+}
+
+#second-container{
+  width: 90%;
+  margin: 0 5%;
+  padding: 90px 0;
+}
+
+.sub-text{
+  margin: 0 auto;
+}
+
+.imgs{
+  float: none;
+  margin: 0 auto;
+}
+
+.img1, .img3, .img5{
+  display: none;
+}
+
+.img4{
+  margin: 10px auto;
+}
+
+#third-container{
+  width: 90%;
+  margin: 0 5%;
+  padding:90px 0;
+}
+
+.feature{
+  width: 320px;
+  height: auto;
+  float:none;
+  margin: 0 auto 10px auto;
+}
+
+.feature:nth-child(2){
+  margin: 0  auto 10px auto;
+}
+
+.feature:nth-child(3){
+  margin-bottom: 0;
+}
+
+.feature h3{
+  margin: 10px auto;
+}
+
+
+.feature-text{
+  text-align: center;
+}
+
+
+
+#fourth-container{
+  width: 90%;
+  margin: 0 5%;
+  padding:90px 0;
+}
+
+.profile{
+  float: none;
+  text-align: center;
+  width: 100%;
+}
+
+.prof{
+  margin: 0 auto ;
+}
+
+.profile h3{
+  margin: 20px auto 5px auto;
+}
+
+.profile-text{
+  margin: 0;
+}
+
+#fifth-container{
+  width: 90%;
+  margin: 0 5%;
+  padding:90px 0;
+}
+
+.contact-1{
+  float: none;
+  width: 100%;
+  padding: 0;
+  text-align: center;
+}
+
+.contact-2{
+  float: none;
+  width: 100%;
+  padding: 0;
+  text-align: center;
+
+}
+
+.contact-theme{
+  margin-bottom: 5px;
+}
+
+.contact-num{
+  display: inline-block;
+  margin-bottom: 20px;
+
+}
+
+.fa-twitter{
+  margin: 0 8px;
+}
