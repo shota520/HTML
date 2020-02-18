@@ -186,10 +186,12 @@ header img{
   margin: 0 auto;
 }
 
-.profile{
+
+.profile-info{
   float: left;
   width: 50%;
   display: inline-block;
+  margin: 0 auto 0 131px;
 }
 
 .profile h3{
@@ -208,12 +210,15 @@ font-size: 16px;
   margin-bottom: 20px;
 }
 
+
 .prof{
   background-image: url(img/my-icon.jpg);
   border-radius: 50%;
   width: 250px;
   height: 250px;
   margin: 0 auto;
+  float: left;
+  margin: 0 0 0 131px;
 }
 
 
@@ -378,10 +383,12 @@ footer p{
   float: none;
   text-align: center;
   width: 100%;
+  margin: 0 auto;
 }
 
 .prof{
-  margin: 0 auto ;
+  margin: 0 auto;
+  float: none;
 }
 
 .profile h3{
